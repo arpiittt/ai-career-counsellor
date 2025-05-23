@@ -107,7 +107,7 @@ Start chatting with the bot! Example inputs:
 
 ## 📸 Screenshot
 
-![AI Virtual Career Counsellor App Interface](assets/image_4600ad.png)
+![AI Virtual Career Counsellor App Interface](assets/img.png)
 
 ---
 
