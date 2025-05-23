@@ -107,7 +107,7 @@ Start chatting with the bot! Example inputs:
 
 ## 📸 Screenshot
 
-> *(Add a screenshot of your Streamlit app here! Place image in an `assets/` folder)*
+![AI Virtual Career Counsellor App Interface](assets/image_4600ad.png)
 
 ---
 
