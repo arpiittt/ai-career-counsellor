@@ -17,10 +17,7 @@ models/
 
 # VS Code
 .vscode/
-.history/ # VS Code local history
-
-# Streamlit
-.streamlit/
+.history/ 
 
 # Logs and other temporary files
 *.log
