@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python/
+build/
+dist/
+.env
+.venv/
+venv/
+env/
+
+# Rasa
+.rasa/
+models/
+
+# VS Code
+.vscode/
+.history/ # VS Code local history
+
+# Streamlit
+.streamlit/
+
+# Logs and other temporary files
+*.log
+*.db

@@ -1,0 +1,29 @@
+{
+    "name": "AI Career Counsellor",
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.10",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        }
+    },
+    "postCreateCommand": "pip install --upgrade pip && pip install rasa streamlit spacy && python -m spacy download en_core_web_md",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "redhat.vscode-yaml",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "portsAttributes": {
+        "5005": {
+            "label": "Rasa API",
+            "onAutoForward": "notify"
+        },
+        "8501": {
+            "label": "Streamlit App",
+            "onAutoForward": "openBrowser"
+        }
+    }
+}

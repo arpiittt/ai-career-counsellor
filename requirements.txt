@@ -1,0 +1,5 @@
+rasa==3.6.21
+requests
+spacy==3.8.6
+streamlit==1.45.1
+nltk

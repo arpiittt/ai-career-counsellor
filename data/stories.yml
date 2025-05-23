@@ -1,0 +1,35 @@
+version: "3.1"
+
+stories:
+
+- story: happy path tech
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inquire_tech_interest
+  - action: action_recommend_career
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: arts interest path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inquire_arts_interest
+  - action: action_recommend_career
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: commerce interest path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inquire_commerce_interest
+  - action: action_recommend_career
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

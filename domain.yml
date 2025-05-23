@@ -1,0 +1,36 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - inquire_tech_interest
+  - inquire_arts_interest
+  - inquire_commerce_interest
+  - affirm
+  - deny
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hello! I'm your AI career counsellor. What are your interests?"
+  utter_goodbye:
+  - text: "Goodbye! Feel free to come back if you have more questions."
+  utter_iamabot:
+  - text: "I am a bot, an AI virtual career counsellor."
+  utter_ask_more_interest:
+  - text: "Tell me more about what you enjoy or what subjects you like."
+  utter_recommend_tech:
+  - text: "Based on your interest in technology, careers like Software Developer, Data Scientist, Cybersecurity Analyst, or Web Developer could be great fits!"
+  utter_recommend_arts:
+  - text: "Given your artistic inclination, you might enjoy careers such as Graphic Designer, Animator, Content Creator, or Fine Artist."
+  utter_recommend_commerce:
+  - text: "With your interest in commerce, consider careers like Financial Analyst, Accountant, Marketing Manager, or Business Consultant."
+  utter_default:
+  - text: "I'm sorry, I didn't quite understand that. Can you rephrase or tell me more about your interests?"
+
+actions:
+  - action_recommend_career
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
