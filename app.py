@@ -3,7 +3,7 @@ import requests
 import json
 import time
 
-RASA_API_URL = "http://localhost:5005/webhooks/rest/webhook"
+RASA_API_URL = "https://00d9-4-240-39-197.ngrok-free.app/webhooks/rest/webhook"
 
 st.set_page_config(page_title="AI Career Counsellor", page_icon="🤖")
 
